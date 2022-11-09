@@ -1,0 +1,320 @@
+{
+    "infos": {
+        "contact":
+        {
+            "phone": "+33 6 15 51 14 06",
+            "email": "paul.wzk.pro@gmail.com",
+            "adress": "80 rue du Torpilleur Foudroyant",
+            "zip": "29200",
+            "city": "Brest",
+            "country": "FRANCE",
+            "licence": "B"
+        },
+        "sportHobbies":
+        {
+            "programming": [
+                "Arduino",
+                "ESP32",
+                "STM32"
+            ],
+            "sport": [
+                "Wakeboard",
+                "Surf",
+                "Foil"
+            ],
+            "3D": [
+                "3D Design",
+                "3D printing"
+            ],
+            "other": [
+                "Car mechanics",
+                "Guitar",
+                "Web development"
+            ]
+        },
+        "first_name": "Paul",
+        "last_name": "Walczak",
+        
+        "linkedin": "https://www.linkedin.com/in/paul-walczak-639106194/",
+        "discord": "https://discordapp.com/users/463767435359551516/",
+        "facebook": "https://www.facebook.com/profile.php?id=100009639675518",
+        "github": "https://github.com/Polo-Wolo",
+        "instagram": "https://www.instagram.com/paul_wzk/",
+        "profile_picture_url": "src/assets/profile_picture.jpg"
+    },
+    "trainings": [
+        {
+            "title": "Sauveteur Secouriste du Travail - SST",
+            "date": "Jan. 2022",
+            "content": [
+                "First Aid at Work"
+            ],
+            "city": "Plouzané",
+            "country": "FRANCE"
+        },
+        {
+            "title": "Boat licence",
+            "date": "July 2021",
+            "content": [
+                "Costal boat licence"
+            ],
+            "city": "Brest",
+            "country": "FRANCE"
+        },
+        {
+            "title": "Premiers Secours en Equipe de niveau 1 - PSE1",
+            "date": "May 2021",
+            "content": [
+                "First Aid in Team Level 1 certification"
+            ],
+            "city": "Brest",
+            "country": "FRANCE"
+        },
+        {
+            "title": "Scientific Baccalauréat",
+            "date": "July 2019",
+            "content": [
+                "Digital science and European Section"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        },
+        {
+            "title": "BNSSA",
+            "date": "Avr. 2019",
+            "content": [
+                "Awarded of Brevet National de Sécurité et de Sauvetage Aquatique (National Aquatic Safety and Rescue Certificate).",
+                "This is a French aquatic safety certification."
+            ],
+            "city": "Landerneau",
+            "country": "FRANCE"
+        },
+        {
+            "title": "PET for School",
+            "date": "Juin 2017",
+            "content": [
+                "Awarded PET for School.",
+                "English level : B1 Cambridge."
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        }
+    ],
+    "workexperiences": [
+        {
+            "society": "Kerpape",
+            "society_link": "http://kerpape.mutualite56.fr/fr",
+            "type": "Technician intership",
+            "date": "June 2022",
+            "time": "2 months",
+            "content": [
+                "Design and 3D printing in a rehabilitation center"
+            ],
+            "city": "Ploemeur",
+            "country": "FRANCE"
+        },
+        {
+            "society": "BreizElec",
+            "society_link": "https://www.breizelec.fr/",
+            "type": "Fixed-term contract",
+            "date": "July 2021",
+            "time": "1 month",
+            "content": [
+                "Inserting components and reworking solder joints"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        },
+        {
+            "society": "BreizElec",
+            "society_link": "https://www.breizelec.fr/",
+            "type": "Internship",
+            "date": "Feb. 2021",
+            "time": "1 month",
+            "content": [
+                "Component insertion and assembly of electronic equipment"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        },
+        {
+            "society": "BNP Paribas",
+            "society_link": "https://group.bnpparibas/",
+            "type": "Fixed-term contract",
+            "date": "July 2020",
+            "time": "1 month",
+            "content": [
+                "Welcoming customers, handling routine inquiries and sales activity as receptionist"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        },
+        {
+            "society": "BNP Paribas",
+            "society_link": "https://group.bnpparibas/",
+            "type": "Fixed-term contract",
+            "date": "Aug 2019",
+            "time": "1 month",
+            "content": [
+                "Welcoming customers, handling routine inquiries and sales activity as receptionist"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        }
+    ],
+    "educations": [
+        {
+            "title": "Generalist Engineer",
+            "date": "2019-2024",
+            "content": [
+                "ENIB - École Nationale d'Ingénieur de Brest",
+                "General - Electronics, Mechatronics, Computer Science"
+            ],
+            "city": "Plouzané",
+            "country": "FRANCE"
+        },
+        {
+            "title": "Bachelor of Science degree",
+            "date": "2012-2019",
+            "content": [
+                "College/High School Saint-Louis with Digital Sciences and European Section"
+            ],
+            "city": "Châteaulin",
+            "country": "FRANCE"
+        }
+    ],
+    "skills": [
+        {
+            "Microcontroller programming": [
+                "Arduino",
+                "STM32",
+                "CM33"
+            ],
+            "Programming languages": [
+                "Python",
+                "C",
+                "C++"
+            ],
+            "Web development": [
+                "Vue",
+                "Flask",
+                "TailwindCSS",
+                "Jinja"
+            ],
+            "CAO": [
+                "Autodesk Fusion 360",
+                "CATIA",
+                "EAGLE",
+                "Blender (Newbie)"
+            ],
+            "Languages": [
+                "French (native)",
+                "English (proficient)"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Allosaurus",
+            "type": "Manual creation",
+            "date": "Avr. 2022",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum "
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 0,
+            "tags": "dyno"
+        },
+        {
+            "title": "MicroRaptor",
+            "type": "Manual creation",
+            "date": "Fevr. 2016",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum"
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/52e7d3474b50a914f1dc8460962e33791c3ad6e04e50744172277fd0974ecd_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 1,
+            "tags": "mini"
+        },
+        {
+            "title": "Lighthouse Post",
+            "type": "Manual creation",
+            "date": "Fevr. 2016",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum"
+            ],
+            "pictures_url": [
+                "https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 2,
+            "tags": "homemade"
+        },
+        {
+            "title": "Synthetic mind",
+            "type": "Manual creation",
+            "date": "Fevr. 2016",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum dolor"
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/51e6dd444a54b10ff3d8992cc12c30771037dbf85254794e732f7bd49344_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 3,
+            "tags": "analog"
+        },
+        {
+            "title": "Virtual Revolution",
+            "type": "Manual creation",
+            "date": "Fevr. 2016",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum"
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/54e0d3434a56b10ff3d8992cc12c30771037dbf85254794e70267cdc9544_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 4,
+            "tags": "virtual"
+        },
+        {
+            "title": "Optimal Vision",
+            "type": "Manual creation",
+            "date": "Fevr. 2016",
+            "time": "2 weeks",
+            "content": [
+                "Lorem ipsum"
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/52e6d0444c56aa14f1dc8460962e33791c3ad6e04e5074417c2d78d2934fc6_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "id": 5,
+            "tags": "crypto"
+        }
+    ]
+}

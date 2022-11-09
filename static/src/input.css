@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.body {
+    @apply bg-raisin font-sulphur text-white scroll-auto;
+}
+.top-bar {
+    @apply inline-flex justify-between px-9 fixed top-9 w-full;
+}
+.home-title {
+    @apply text-3xl uppercase;
+}
+.button {
+    @apply border border-white font-light rounded-full hover:bg-white hover:text-black;
+}
+.text-button {
+    @apply px-4 py-2;
+}
+.bar {
+    @apply w-24 flex flex-col justify-between fixed top-1/2 -translate-y-1/2;
+}
+.bar-left {
+    @apply left-8;
+}
+.bar-right {
+    @apply space-y-3 right-0 items-center;
+}
+.bar-group {
+    @apply inline-flex relative p-2 ;
+}
+.circle {
+    @apply border-2 border-white rounded-full w-3 h-3 group-hover:w-6 transition-[width] ease-in-out duration-100;
+}
+.circle-text {
+    @apply whitespace-nowrap group-hover:block left-12 hidden absolute top-1/2 -translate-y-1/2;
+}
+.icon {
+    @apply w-5 h-5 fill-dim hover:fill-pantone;
+}
+.section {
+    @apply mx-24 px-24 py-20 h-screen snap-start;
+}
+.top-button {
+    @apply animate-bounce absolute w-16 h-16 bottom-4 right-8 flex items-center justify-center;
+}
+.active .circle {
+    @apply bg-white w-6;
+}
+.active .circle-text {
+    @apply block left-12;
+}
+/* Timeline */
+.time-element {
+    @apply flex space-x-10 min-h-max justify-center;
+}
+.date {
+    @apply mt-6 text-right;
+}
+.date-width {
+    @apply w-24;
+}
+.timeline {
+    @apply relative w-5;
+}
+.circle-pantone {
+    @apply w-5 h-5 shrink-0 bg-pantone rounded-full absolute right-1/2 transform translate-x-1/2 top-7;
+}
+.line {
+    @apply bg-pantone w-1.5 lg:w-2 h-full absolute right-1/2 transform translate-x-1/2;
+}
+.card {
+    @apply flex flex-none bg-jet rounded-xl px-5 py-4 space-x-5 my-3;
+}
+.card-header {
+    @apply flex justify-between font-semibold items-center;
+}
+.location {
+    @apply text-sm;
+}
+.content {
+    @apply font-light text-sm text-justify;
+}
+.card-width {
+    @apply w-3/5;
+}
+.little-stripped {
+    @apply h-1;
+}
+.medium-stripped {
+    @apply h-2;
+}

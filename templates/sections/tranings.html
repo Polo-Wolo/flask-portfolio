@@ -1,0 +1,29 @@
+<section class="section" id="trainings">
+    <div class="w-full flex items-center h-full">
+        <div class="flex-col text-right w-1/3 text-8xl font-mitr font-medium text-dim">
+            <div>TRAIN</div>
+            <div>INGS</div>
+        </div>
+        <div class="space-y-2 grow">
+            {% with height='h-1' %}
+                {% include "cards/fakeCard.html" %}
+            {% endwith %}
+            {% with height='h-2' %}
+                {% include "cards/fakeCard.html" %}
+            {% endwith %}
+            <div>
+                {% for elem in trainings %}
+                    {% with first_elem=loop.first, last_elem=loop.last %}
+                        {% include "cards/trainingCard.html" %}
+                    {% endwith %}
+                {% endfor %}
+            </div>
+            {% with height='h-2' %}
+                {% include "cards/fakeCard.html" %}
+            {% endwith %}
+            {% with height='h-1' %}
+                {% include "cards/fakeCard.html" %}
+            {% endwith %}
+        </div>
+    </div>
+</section>
