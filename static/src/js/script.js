@@ -5,7 +5,8 @@ $(document).ready(function () {
         onScrollHandle();
     }, true)
 
-    function onScrollHandle() {;
+    function onScrollHandle() {
+
         //Get current scroll position
         var currentScrollPos = $(document).scrollTop();
 

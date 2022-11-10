@@ -34,13 +34,15 @@
         },
         "first_name": "Paul",
         "last_name": "Walczak",
-        
-        "linkedin": "https://www.linkedin.com/in/paul-walczak-639106194/",
-        "discord": "https://discordapp.com/users/463767435359551516/",
-        "facebook": "https://www.facebook.com/profile.php?id=100009639675518",
-        "github": "https://github.com/Polo-Wolo",
-        "instagram": "https://www.instagram.com/paul_wzk/",
-        "profile_picture_url": "src/assets/profile_picture.jpg"
+        "social_links":
+        {
+            "linkedin": "https://www.linkedin.com/in/paul-walczak-639106194/",
+            "discord": "https://discordapp.com/users/463767435359551516/",
+            "facebook": "https://www.facebook.com/profile.php?id=100009639675518",
+            "github": "https://github.com/Polo-Wolo",
+            "instagram": "https://www.instagram.com/paul_wzk/",
+            "profile_picture_url": "src/assets/profile_picture.jpg"
+        }
     },
     "trainings": [
         {

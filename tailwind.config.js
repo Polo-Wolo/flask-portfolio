@@ -18,6 +18,18 @@ module.exports = {
       transitionProperty: {
         'width': 'width',
       },
+      saturate: {
+        85: '.85',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 50%': { transform: 'rotate(-15deg)' },
+          '25%': { transform: 'rotate(15deg)' },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      }
     },
   },
   plugins: [],
