@@ -1,0 +1,14 @@
+<div class="time-element">
+    <div class="card card-width flex-col my-3">
+        <div class="card-header">
+            <div>{{ elem.organisation }}</div>
+            <div class="location">{{ elem.date }}</div>
+        </div>
+        <div class="content italic">{{ elem.place }}, {{ elem.country }}</div>
+        <div class="content ml-2">
+            {% for p in elem.content %}
+                <p>{{ p }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>

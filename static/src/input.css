@@ -73,7 +73,7 @@
     @apply bg-pantone w-1.5 lg:w-2 h-full absolute right-1/2 transform translate-x-1/2;
 }
 .card {
-    @apply flex flex-none bg-jet rounded-xl px-5 py-4 space-x-5 my-3;
+    @apply flex flex-none bg-jet rounded-xl px-5 py-4 space-x-5;
 }
 .card-header {
     @apply flex justify-between font-semibold items-center;

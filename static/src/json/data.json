@@ -215,6 +215,38 @@
             ]
         }
     ],
+    "volunteerings": [
+        {
+            "organisation": "Nous Existons",
+            "logo_path": "",
+            "date": "2021-2023",
+            "content": [
+                "Scientific mediation that aims to raise awareness of the sensitivity and fragility of the seabed. The project is suported by ISblue, ISblueHUB and Ifremer"
+            ],
+            "place": "Brest",
+            "country": "FRANCE"
+        },
+        {
+            "organisation": "Cordées de la Réussite",
+            "logo_path": "",
+            "date": "2021-2022",
+            "content": [
+                "A French national education scheme that aims to encourage academic ambition among secondary school students"
+            ],
+            "place": "Brest",
+            "country": "FRANCE"
+        },
+        {
+            "organisation": "Summer Camp Animator",
+            "logo_path": "",
+            "date": "2020-2021",
+            "content": [
+                "Summer camp animator during 2 summers. With youngs from 11 to 15 years old"
+            ],
+            "place": "Mont Saint-Michel",
+            "country": "FRANCE"
+        }
+    ],
     "projects": [
         {
             "title": "Allosaurus",
