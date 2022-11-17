@@ -5,8 +5,13 @@
 .body {
     @apply bg-raisin font-sulphur text-white;
 }
+.snap-content {
+    @apply h-screen;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
 .top-bar {
-    @apply inline-flex justify-between px-9 fixed top-9 w-full;
+    @apply inline-flex justify-between px-9 fixed top-9 w-full z-10;
 }
 .home-title {
     @apply text-3xl uppercase;
