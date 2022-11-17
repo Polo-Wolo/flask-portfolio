@@ -12,10 +12,13 @@
     @apply text-3xl uppercase;
 }
 .button {
-    @apply border border-white font-light rounded-full hover:bg-white hover:text-black;
+    @apply border border-white font-light rounded-full px-4 py-2;
 }
-.text-button {
-    @apply px-4 py-2;
+.transparent-button {
+    @apply bg-transparent hover:bg-white text-white hover:text-raisin;
+}
+.filled-button {
+    @apply bg-white hover:bg-transparent text-raisin hover:text-white;
 }
 .bar {
     @apply w-24 flex flex-col justify-between fixed top-1/2 -translate-y-1/2;
@@ -35,7 +38,7 @@
 .circle-text {
     @apply whitespace-nowrap group-hover:opacity-100 left-12 opacity-0 absolute top-1/2 -translate-y-1/2 transition-all duration-100;
 }
-.icon {
+.social-icon {
     @apply w-5 h-5 fill-dim hover:fill-pantone;
 }
 .section {
@@ -92,4 +95,7 @@
 }
 .medium-stripped {
     @apply h-2;
+}
+.icon {
+    @apply w-5 h-5 fill-white;
 }

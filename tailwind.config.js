@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'raisin': '#17171D',
+        'raisin': '#17171d',
         'pantone': '#4472ca',
         'jet': "#1F1F24",
         'dim': "#3A3A40",

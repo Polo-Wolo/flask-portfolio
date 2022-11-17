@@ -187,29 +187,42 @@
     ],
     "skills": [
         {
-            "Microcontroller programming": [
+            "title": "Microcontroller programming",
+            "list": [
                 "Arduino",
                 "STM32",
                 "CM33"
-            ],
-            "Programming languages": [
+            ]
+        },
+        {
+            "title": "Programming languages",
+            "list": [
                 "Python",
                 "C",
                 "C++"
-            ],
-            "Web development": [
+            ]
+        },
+        {
+            "title": "Web development",
+            "list": [
                 "Vue",
                 "Flask",
                 "TailwindCSS",
                 "Jinja"
-            ],
-            "CAO": [
+            ]
+        },
+        {
+            "title": "CAO",
+            "list": [
                 "Autodesk Fusion 360",
                 "CATIA",
                 "EAGLE",
                 "Blender (Newbie)"
-            ],
-            "Languages": [
+            ]
+        },
+        {
+            "title": "Languages",
+            "list": [
                 "French (native)",
                 "English (proficient)"
             ]
