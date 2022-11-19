@@ -5,6 +5,8 @@ $(document).ready(function () {
         onScrollHandle();
     }, true)
 
+    document.getElementById("burger").addEventListener("click", toggleBurger);
+
     function onScrollHandle() {
 
         //Get current scroll position
@@ -25,5 +27,17 @@ $(document).ready(function () {
                 curLink.parent().removeClass("active");
             }
         });
+    }
+
+    let menu_on = 0;
+    function toggleBurger() {
+        menu_on = !menu_on;
+        /*
+        if (menu_on) {
+            menu_on = 0;
+        } else {
+            menu_on = 1;
+        }*/
+        console.log("menu_on :", menu_on);
     }
 });
