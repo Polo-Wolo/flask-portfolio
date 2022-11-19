@@ -11,7 +11,7 @@
     overflow-y: scroll;
 }
 .top-bar {
-    @apply inline-flex justify-between px-9 fixed top-9 w-full z-10;
+    @apply justify-between px-9 fixed top-9 w-full z-10 hidden lg:inline-flex;
 }
 .home-title {
     @apply xl:text-3xl uppercase;
@@ -26,7 +26,7 @@
     @apply bg-white hover:bg-transparent text-raisin hover:text-white;
 }
 .bar {
-    @apply w-24 flex flex-col justify-between fixed top-1/2 -translate-y-1/2;
+    @apply w-24 hidden lg:flex flex-col justify-between fixed top-1/2 -translate-y-1/2;
 }
 .bar-left {
     @apply left-8;
@@ -47,10 +47,10 @@
     @apply w-5 h-5 fill-dim hover:fill-pantone;
 }
 .section {
-    @apply mx-24 px-24 py-20 h-screen snap-start;
+    @apply lg:mx-24 lg:px-24 lg:py-20 h-screen snap-start;
 }
 .top-button {
-    @apply animate-wiggle absolute w-16 h-16 bottom-4 right-8 flex items-center justify-center;
+    @apply animate-wiggle absolute w-16 h-16 bottom-4 right-8 hidden lg:flex items-center justify-center;
 }
 .scroll {
     @apply animate-bounce absolute w-16 h-16 bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-center;
@@ -63,13 +63,13 @@
 }
 /* Timeline */
 .time-element {
-    @apply flex space-x-10 min-h-max justify-center;
+    @apply flex space-x-4 lg:space-x-10 min-h-max justify-center;
 }
 .date {
-    @apply mt-6 text-right;
+    @apply mt-6.5 text-right text-sm lg:text-base;
 }
 .date-width {
-    @apply w-24;
+    @apply w-16 lg:w-18;
 }
 .timeline {
     @apply relative w-5;
@@ -81,16 +81,16 @@
     @apply bg-pantone w-1.5 lg:w-2 h-full absolute right-1/2 transform translate-x-1/2;
 }
 .card {
-    @apply flex flex-none bg-jet rounded-xl px-5 py-4 space-x-5;
+    @apply flex flex-none bg-jet rounded-lg lg:rounded-xl px-4 py-3 lg:px-5 lg:py-4;
 }
 .card-header {
-    @apply flex justify-between font-semibold items-center;
+    @apply flex justify-between font-semibold items-center text-sm lg:text-base;
 }
 .location {
-    @apply text-sm;
+    @apply text-xs lg:text-sm;
 }
 .content {
-    @apply font-light text-sm text-justify;
+    @apply font-light text-xs lg:text-sm text-justify lg:ml-4;
 }
 .card-width {
     @apply w-3/5;
@@ -106,7 +106,7 @@
 }
 /* mobileNavBar */
 .mobileNavBar {
-    @apply relative;
+    @apply relative lg:hidden;
 }
 .burger-button {
     @apply relative z-20;

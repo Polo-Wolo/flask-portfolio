@@ -29,6 +29,12 @@ module.exports = {
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
+      },
+      width: {
+        18: '4.5rem',
+      },
+      spacing: {
+        6.5: '1.625rem',
       }
     },
   },
