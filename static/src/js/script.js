@@ -1,11 +1,19 @@
 $(document).ready(function () {
-    console.log("Document ready !!!");
+    console.log("Document ready !");
 
     document.addEventListener('scroll', function (ev) {
         onScrollHandle();
     }, true)
 
-    document.getElementById("burger").addEventListener("click", toggleBurger);
+    document.getElementById("burger").addEventListener("click", togglePanel);
+    document.getElementById("panel-outside").addEventListener("click", togglePanel);
+
+    var mobile_link_elems = document.getElementsByClassName("mobile-link");
+    for (var i = 0; i < mobile_link_elems.length; i++) {
+        mobile_link_elems[i].addEventListener('click', togglePanel, false);
+    }
+    
+    var burger_elems = document.getElementsByClassName("burger-elem");
 
     function onScrollHandle() {
 
@@ -29,15 +37,40 @@ $(document).ready(function () {
         });
     }
 
-    let menu_on = 0;
-    function toggleBurger() {
+    var menu_on = 0;
+    function togglePanel() {
         menu_on = !menu_on;
-        /*
         if (menu_on) {
-            menu_on = 0;
+            // show panel
+            document.getElementById("panel").classList.add("panel-active");
+            // add active class to burger elems
+            for (var i = 0; i < burger_elems.length; i++) {
+                switch (i) {
+                    case(0):
+                        burger_elems[0].classList.add("burger-elem-active1");
+                    case(1):
+                        burger_elems[1].classList.add("burger-elem-active2");
+                    case(2):
+                        burger_elems[2].classList.add("burger-elem-active3");
+                    default: break;
+                }
+            }
         } else {
-            menu_on = 1;
-        }*/
+            // hide panel
+            document.getElementById("panel").classList.remove("panel-active");
+            // remove active class to burger elems
+            for (var i = 0; i < burger_elems.length; i++) {
+                switch (i) {
+                    case(0):
+                        burger_elems[0].classList.remove("burger-elem-active1");
+                    case(1):
+                        burger_elems[1].classList.remove("burger-elem-active2");
+                    case(2):
+                        burger_elems[2].classList.remove("burger-elem-active3");
+                    default: break;
+                }
+            }
+        }
         console.log("menu_on :", menu_on);
     }
 });

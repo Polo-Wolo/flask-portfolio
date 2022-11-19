@@ -108,3 +108,30 @@
 .mobileNavBar {
     @apply relative;
 }
+.burger-button {
+    @apply relative z-20;
+}
+.burger-bg {
+    @apply relative flex overflow-hidden items-center justify-center rounded-lg w-14 h-14 bg-jet shadow-md ring-0 ring-dim group-focus:ring-4 transform transition-all;
+}
+.burger-content {
+    @apply flex flex-col justify-between w-6 h-5 transform transition-all duration-300 origin-center overflow-hidden;
+}
+.burger-elem {
+    @apply rounded-full bg-white h-0.5 w-6 transform transition-all duration-300;
+}
+.burger-elem-active1 {
+    @apply rotate-45 translate-x-[2px] -translate-y-1/2 w-7;
+}
+.burger-elem-active2 {
+    @apply -translate-x-10;
+}
+.burger-elem-active3 {
+    @apply -rotate-45 translate-x-[2px] translate-y-1/2 w-7;
+}
+.mobile-text {
+    @apply whitespace-nowrap text-center;
+}
+.panel-active {
+    @apply left-0;
+}

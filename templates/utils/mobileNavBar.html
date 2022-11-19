@@ -1,13 +1,46 @@
-<div class="mobileNavBar relative">
+<div class="mobileNavBar">
+    <!-- Burger -->
     <div class="absolute top-4 right-4">
-        <button class="relative group">
-            <div class="relative flex overflow-hidden items-center justify-center rounded-lg w-14 h-14 bg-jet shadow-md ring-0 ring-dim group-focus:ring-4 transform transition-all">
-                <div class="flex flex-col justify-between w-6 h-5 transform transition-all duration-300 origin-center overflow-hidden" id="burger">
-                    <div class="rounded-full bg-white h-0.5 w-6 transform transition-all duration-300 group-focus:w-7 origin-left group-focus:rotate-45 group-focus:translate-x-[2px] group-focus:-translate-y-1/2"></div>
-                    <div class="rounded-full bg-white h-0.5 w-6 transform transition-all duration-300 group-focus:w-7 group-focus:-translate-x-10"></div>
-                    <div class="rounded-full bg-white h-0.5 w-6 transform transition-all duration-300 group-focus:w-7 origin-left group-focus:-rotate-45 group-focus:translate-x-[2px] group-focus:translate-y-1/2"></div>
+        <button class="burger-button group">
+            <div class="burger-bg">
+                <div class="burger-content" id="burger">
+                    <div class="burger-elem origin-left"></div>
+                    <div class="burger-elem"></div>
+                    <div class="burger-elem origin-left"></div>
                 </div>
             </div>
         </button>
+    </div>
+    <div class="w-screen flex h-screen absolute top-0 -left-full shadow-xl transform transition-all duration-200 z-10" id="panel">
+        <div class="bg-jet w-4/5 relative flex items-center justify-end">
+            <ul class="flex flex-col items-end space-y-4 m-12">
+                <li class="active">
+                    <a class="mobile-link" href="#home">
+                        <span class="mobile-text">HOME</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-link" href="#work-experiences">
+                        <span class="mobile-text">WORK-EXPERIENCES</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-link" href="#volunteering">
+                        <span class="mobile-text">VOLUNTEERING</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-link" href="#trainings">
+                        <span class="mobile-text">TRAININGS</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mobile-link" href="#skills">
+                        <span class="mobile-text">SKILLS</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="grow h-screen" id="panel-outside"></div>
     </div>
 </div>
