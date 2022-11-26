@@ -5,11 +5,6 @@
 .body {
     @apply bg-raisin font-sulphur text-white;
 }
-.snap-content {
-    @apply h-screen;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
 .top-bar {
     @apply justify-between px-9 fixed top-9 w-full z-10 hidden lg:inline-flex;
 }
@@ -20,7 +15,7 @@
     @apply border border-white font-light rounded-full px-4 py-2;
 }
 .transparent-button {
-    @apply bg-transparent hover:bg-white text-white hover:text-raisin;
+    @apply bg-transparent hover:bg-white bg-raisin text-white hover:text-raisin;
 }
 .filled-button {
     @apply bg-white hover:bg-transparent text-raisin hover:text-white;
@@ -47,19 +42,19 @@
     @apply w-5 h-5 fill-dim hover:fill-pantone;
 }
 .section {
-    @apply lg:mx-24 lg:px-24 lg:py-20 h-screen snap-start;
+    @apply px-3 lg:mx-24 lg:px-24 lg:py-20 lg:h-screen snap-start;
 }
 .section-content {
-    @apply w-full lg:flex items-center h-full;
+    @apply w-full items-center h-auto lg:min-h-screen flex flex-col lg:flex-row;
 }
 .section-title {
     @apply flex justify-center lg:block lg:w-1/3 text-4xl lg:text-8xl font-mitr font-medium text-dim my-10;
 }
 .top-button {
-    @apply animate-wiggle absolute w-16 h-16 bottom-4 right-8 hidden lg:flex items-center justify-center;
+    @apply animate-wiggle fixed w-14 h-14 right-8 flex items-center justify-center transition-all duration-150 ease-in-out;
 }
 .scroll {
-    @apply animate-bounce absolute w-16 h-16 bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-center;
+    @apply animate-bounce absolute bottom-4 -translate-x-1/2 flex ;
 }
 .active .circle {
     @apply bg-white w-6 ml-2;
@@ -67,18 +62,24 @@
 .active .circle-text {
     @apply opacity-100 left-12;
 }
+.home-text {
+    @apply text-center lg:text-left font-bold text-4xl lg:text-7xl mx-3;
+}
 /* Timeline */
 .time-element {
-    @apply flex space-x-4 lg:space-x-10 min-h-max justify-center;
+    @apply flex lg:space-x-10 min-h-max justify-center;
+}
+.fake-time-element {
+    @apply hidden lg:flex lg:space-x-10 min-h-max justify-center;
 }
 .date {
-    @apply mt-6.5 text-right text-sm lg:text-base;
+    @apply hidden lg:block mt-6.5 text-right text-sm lg:text-base;
 }
 .date-width {
     @apply w-16 lg:w-18;
 }
 .timeline {
-    @apply relative w-5;
+    @apply relative w-5 hidden lg:block;
 }
 .circle-pantone {
     @apply w-5 h-5 shrink-0 bg-pantone rounded-full absolute right-1/2 transform translate-x-1/2 top-7;
@@ -99,7 +100,7 @@
     @apply font-light text-xs lg:text-sm text-justify lg:ml-4;
 }
 .card-width {
-    @apply w-3/5;
+    @apply w-full lg:w-3/5;
 }
 .little-stripped {
     @apply h-1;
@@ -115,7 +116,7 @@
     @apply relative lg:hidden;
 }
 .burger-button {
-    @apply relative z-20;
+    @apply relative z-50;
 }
 .burger-bg {
     @apply relative flex overflow-hidden items-center justify-center rounded-lg w-14 h-14 bg-jet shadow-md ring-0 ring-dim group-focus:ring-4 transform transition-all;
@@ -140,4 +141,9 @@
 }
 .panel-active {
     @apply left-0;
+}
+
+/* icons */
+.work-experience-icon {
+    @apply w-8 h-8 lg:w-10 lg:h-10 fill-pantone rounded-sm;
 }

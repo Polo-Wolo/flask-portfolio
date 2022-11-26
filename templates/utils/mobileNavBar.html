@@ -1,6 +1,6 @@
 <div class="mobileNavBar">
     <!-- Burger -->
-    <div class="absolute top-4 right-4">
+    <div class="fixed top-4 right-4">
         <button class="burger-button group">
             <div class="burger-bg" id="burger">
                 <div class="burger-content">
@@ -11,10 +11,10 @@
             </div>
         </button>
     </div>
-    <div class="w-screen flex h-screen absolute top-0 -left-full shadow-xl transform transition-all duration-200 z-10" id="panel">
-        <div class="bg-jet w-2/3 relative flex items-center justify-end">
+    <div class="w-screen flex h-screen fixed top-0 -left-full shadow-xl transform transition-all duration-200 z-10" id="panel">
+        <div class="bg-jet w-2/3 relative flex items-center justify-end shadow-2xl border-r border-raisin">
             <ul class="flex flex-col items-end space-y-4 m-12">
-                <li class="active">
+                <li>
                     <a class="mobile-link" href="#home">
                         <span class="mobile-text">HOME</span>
                     </a>

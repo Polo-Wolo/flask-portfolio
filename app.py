@@ -3,11 +3,16 @@ from flask_frozen import Freezer
 import json, sys
 import socket
 
-# Use to know the server ip in the network
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-s.connect(("8.8.8.8", 80))
-ip_addr = s.getsockname()[0]
-s.close()
+online = 0
+
+if (online):
+	# Use to know the server ip in the network
+	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+	s.connect(("8.8.8.8", 80))
+	ip_addr = s.getsockname()[0]
+	s.close()
+else:
+	ip_addr = "127.0.0.1"
 
 # create a data file
 data = {}
@@ -31,5 +36,8 @@ def home():
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
 		freezer.freeze()
+
+		
+
 	else:
 		app.run(debug=True, host=ip_addr )

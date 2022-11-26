@@ -46,7 +46,18 @@
     },
     "trainings": [
         {
-            "title": "Sauveteur Secouriste du Travail - SST",
+            "title": "Generalist Engineer",
+            "date": "2019-2024",
+            "content": [
+                "ENIB - École Nationale d'Ingénieur de Brest",
+                "General - Electronics, Mechatronics, Computer Science",
+                "Signal and image processing option"
+            ],
+            "city": "Plouzané",
+            "country": "FRANCE"
+        },
+        {
+            "title": "SST",
             "date": "Jan. 2022",
             "content": [
                 "First Aid at Work"
@@ -64,7 +75,7 @@
             "country": "FRANCE"
         },
         {
-            "title": "Premiers Secours en Equipe de niveau 1 - PSE1",
+            "title": "PSE1",
             "date": "May 2021",
             "content": [
                 "First Aid in Team Level 1 certification"
@@ -164,27 +175,6 @@
             "country": "FRANCE"
         }
     ],
-    "educations": [
-        {
-            "title": "Generalist Engineer",
-            "date": "2019-2024",
-            "content": [
-                "ENIB - École Nationale d'Ingénieur de Brest",
-                "General - Electronics, Mechatronics, Computer Science"
-            ],
-            "city": "Plouzané",
-            "country": "FRANCE"
-        },
-        {
-            "title": "Bachelor of Science degree",
-            "date": "2012-2019",
-            "content": [
-                "College/High School Saint-Louis with Digital Sciences and European Section"
-            ],
-            "city": "Châteaulin",
-            "country": "FRANCE"
-        }
-    ],
     "skills": [
         {
             "title": "Microcontroller programming",
@@ -195,11 +185,13 @@
             ]
         },
         {
-            "title": "Programming languages",
+            "title": "Programming",
             "list": [
                 "Python",
                 "C",
-                "C++"
+                "C++",
+                "QT Creator",
+                "Matlab"
             ]
         },
         {
