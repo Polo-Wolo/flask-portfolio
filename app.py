@@ -4,10 +4,7 @@ import json, sys
 import socket
 import pathlib
 
-
-online = 0
-
-if (online):
+if (len(sys.argv) > 1 and sys.argv[1]=="host"):
 	# Use to know the server ip in the network
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	s.connect(("8.8.8.8", 80))
@@ -36,7 +33,7 @@ def home():
 	return render_template("base.html", **data, **config)
 
 if __name__ == '__main__':
-	if len(sys.argv) > 1 and sys.argv[1] == "build":
+	if (len(sys.argv) > 1 and sys.argv[1] == "build"):
 		freezer.freeze()
 
 		cur_dir = str(pathlib.Path(__file__).parent.resolve())
@@ -46,10 +43,11 @@ if __name__ == '__main__':
 			filedata = file.read()
 
 		# Replace the target string
-		filedata = filedata.replace('href="/static', 'href="../static')
-		filedata = filedata.replace('src="../../static', 'src="../static')
-		filedata = filedata.replace('src="/static', 'src="../static')
-		filedata = filedata.replace('href="../../static', 'href="../static')
+		filedata = filedata.replace('href="/static', 'href="static')
+		filedata = filedata.replace('src="../../static', 'src="static')
+		filedata = filedata.replace('src="/static', 'src="static')
+		filedata = filedata.replace('href="../../static', 'href="static')
+		print("Build done !")
 
 
 		# Write the file out again
