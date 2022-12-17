@@ -60,7 +60,7 @@ def cleanFiles(rltv_src_dir, rltv_dst_dir):
 	for files in os.listdir(cur_dir):
 		path = os.path.join(cur_dir, files)
 		#print(path)
-		if(path!=(cur_dir+'/build') and path!=(cur_dir+'/README.md')):
+		if(path!=(cur_dir+'/build') and path!=(cur_dir+'/README.md') and path!=(cur_dir+'/.gitignore') and path!=(cur_dir+'/.git')):
 			try:
 				shutil.rmtree(path)
 			except OSError:
@@ -85,7 +85,7 @@ def cleanFiles(rltv_src_dir, rltv_dst_dir):
 	try:
 		shutil.rmtree(cur_dir+'/build')
 	except OSError:
-		os.remove(path)
+		os.remove(cur_dir+'/build')
 
 if __name__ == '__main__':
 	if (len(sys.argv) > 1 and sys.argv[1] == "build"):
