@@ -1,4 +1,4 @@
-# portofolio
+# portfolio
 
 This is the static build of my portfolio : [demo](https://polo-wolo.github.io/portfolio/)
 
