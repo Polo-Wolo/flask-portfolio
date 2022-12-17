@@ -92,7 +92,7 @@ if __name__ == '__main__':
 		freezer.freeze()
 
 		changeRelativePath()
-		cleanFiles(rltv_src_dir='/build',rltv_dst_dir='')
+		#cleanFiles(rltv_src_dir='/build',rltv_dst_dir='')
 		print("Build done !")
 
 	else:
