@@ -1226,26 +1226,19 @@ video {
 
 .location {
   font-size: 0.875rem;
-}
-
-@media (min-width: 1024px) {
-  .location {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
+  line-height: 1.25rem;
 }
 
 .content {
   text-align: justify;
   font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 300;
 }
 
 @media (min-width: 1024px) {
   .content {
     margin-left: 1rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
 

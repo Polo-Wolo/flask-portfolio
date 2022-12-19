@@ -94,10 +94,10 @@
     @apply flex justify-between font-semibold items-center text-sm lg:text-base;
 }
 .location {
-    @apply text-xs lg:text-sm;
+    @apply text-sm;
 }
 .content {
-    @apply font-light text-xs lg:text-sm text-justify lg:ml-4;
+    @apply font-light text-sm text-justify lg:ml-4;
 }
 .card-width {
     @apply w-full lg:w-3/5;
