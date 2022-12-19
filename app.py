@@ -91,6 +91,14 @@ def renameDirectory(old_dir_name, new_dir_name):
 	# get current directory path
 	cur_dir = str(pathlib.Path(__file__).parent.resolve())
 
+	# Cleaning the cur_dir+new_dir_name directory before fill it
+	for files in os.listdir(cur_dir+new_dir_name):
+		path = os.path.join(cur_dir+new_dir_name, files)
+		try:
+			shutil.rmtree(path)
+		except OSError:
+			os.remove(path)
+
 	# move everyfiles from old_dir_name to new_dir_name
 	src = cur_dir+old_dir_name
 	dst = cur_dir+new_dir_name
