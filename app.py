@@ -91,12 +91,6 @@ def renameDirectory(old_dir_name, new_dir_name):
 	# get current directory path
 	cur_dir = str(pathlib.Path(__file__).parent.resolve())
 
-	#remove new_dir_name directory that isnt up to date
-	try:
-		shutil.rmtree(cur_dir+new_dir_name)
-	except OSError:
-		os.remove(cur_dir+new_dir_name)
-
 	# move everyfiles from old_dir_name to new_dir_name
 	src = cur_dir+old_dir_name
 	dst = cur_dir+new_dir_name
@@ -124,7 +118,7 @@ if __name__ == '__main__':
 
 		changeRelativePath()
 		#cleanFiles(rltv_src_dir='/build',rltv_dst_dir='')
-		renameDirectory('/build', '/docs')
+		renameDirectory(old_dir_name='/build', new_dir_name='/docs')
 		print("Build done !")
 
 	else:
