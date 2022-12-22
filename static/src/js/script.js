@@ -29,10 +29,7 @@ $(document).ready(function () {
             var refElem = $(curLink.attr('href'));
 
             //Compare the value of current position and the every section position in each scroll
-            if (refElem.position().top <= currentScrollPos && refElem.position().top + refElem.height() > currentScrollPos) {
-                //Remove class active in all nav
-                //$('#navbar > ul > li').removeClass("active");
-                //Add class active
+            if (refElem.position().top - 150 <= currentScrollPos && refElem.position().top + refElem.height() > currentScrollPos) {
                 curLink.parent().addClass("active");
             }
             else {
@@ -76,7 +73,6 @@ $(document).ready(function () {
                 }
             }
         }
-        console.log("menu_on :", menu_on);
     }
 
     function onScrollTopButton() {
