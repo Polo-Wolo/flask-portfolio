@@ -51,7 +51,7 @@
     @apply flex justify-center lg:block lg:w-1/3 text-4xl lg:text-8xl font-mitr font-medium text-dim my-10;
 }
 .top-button {
-    @apply animate-wiggle fixed w-14 h-14 right-8 flex items-center justify-center transition-all duration-150 ease-in-out;
+    @apply animate-wiggle fixed w-14 h-14 right-8 flex items-center justify-center transition-all duration-150 ease-in-out z-10;
 }
 .scroll {
     @apply animate-bounce absolute bottom-4 -translate-x-1/2 flex ;
@@ -66,10 +66,10 @@
     @apply text-center lg:text-left font-bold text-4xl lg:text-7xl mx-3;
 }
 /* Timeline */
-.time-element {
+.centered-element {
     @apply flex lg:space-x-10 min-h-max justify-center;
 }
-.fake-time-element {
+.fake-centered-element {
     @apply hidden lg:flex lg:space-x-10 min-h-max justify-center;
 }
 .date {
@@ -89,6 +89,9 @@
 }
 .card {
     @apply flex flex-none bg-jet rounded-lg lg:rounded-xl px-4 py-3 lg:px-5 lg:py-4;
+}
+.no-padding-card {
+    @apply flex flex-none bg-jet rounded-lg lg:rounded-xl;
 }
 .card-header {
     @apply flex justify-between font-semibold items-center text-sm lg:text-base;
@@ -146,4 +149,8 @@
 /* icons */
 .work-experience-icon {
     @apply w-8 h-8 lg:w-10 lg:h-10 fill-pantone rounded-sm;
+}
+
+.picture {
+    background-image: url("https://picsum.photos/1200/800");
 }

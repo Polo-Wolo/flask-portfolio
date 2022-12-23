@@ -1,7 +1,6 @@
 {
     "infos": {
-        "contact":
-        {
+        "contact": {
             "phone": "+33 6 15 51 14 06",
             "email": "paul.wzk.pro@gmail.com",
             "adress": "80 rue du Torpilleur Foudroyant",
@@ -10,8 +9,7 @@
             "country": "FRANCE",
             "licence": "B"
         },
-        "sportHobbies":
-        {
+        "sportHobbies": {
             "programming": [
                 "Arduino",
                 "ESP32",
@@ -34,14 +32,12 @@
         },
         "first_name": "Paul",
         "last_name": "Walczak",
-        "social_links":
-        {
+        "social_links": {
             "linkedin": "https://www.linkedin.com/in/paul-walczak-639106194/",
             "discord": "https://discordapp.com/users/463767435359551516/",
             "facebook": "https://www.facebook.com/profile.php?id=100009639675518",
             "github": "https://github.com/Polo-Wolo",
-            "instagram": "https://www.instagram.com/paul_wzk/",
-            "profile_picture_url": "src/assets/profile_picture.jpg"
+            "instagram": "https://www.instagram.com/paul_wzk/"
         }
     },
     "trainings": [
@@ -254,12 +250,16 @@
     ],
     "projects": [
         {
+            "id": 0,
             "title": "Allosaurus",
             "type": "Manual creation",
             "date": "Avr. 2022",
             "time": "2 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
             "content": [
-                "Lorem ipsum "
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
             ],
             "pictures_url": [
                 "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
@@ -267,93 +267,131 @@
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800"
             ],
-            "id": 0,
-            "tags": "dyno"
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
         },
         {
-            "title": "MicroRaptor",
-            "type": "Manual creation",
-            "date": "Fevr. 2016",
-            "time": "2 weeks",
-            "content": [
-                "Lorem ipsum"
-            ],
-            "pictures_url": [
-                "https://randomwordgenerator.com/img/picture-generator/52e7d3474b50a914f1dc8460962e33791c3ad6e04e50744172277fd0974ecd_640.jpg",
-                "https://picsum.photos/1200/800",
-                "https://picsum.photos/1200/800",
-                "https://picsum.photos/1200/800"
-            ],
             "id": 1,
-            "tags": "mini"
-        },
-        {
-            "title": "Lighthouse Post",
-            "type": "Manual creation",
-            "date": "Fevr. 2016",
-            "time": "2 weeks",
+            "title": "Minautor",
+            "type": "Web dev",
+            "date": "Nov. 2024",
+            "time": "5 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
             "content": [
-                "Lorem ipsum"
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
             ],
             "pictures_url": [
-                "https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800"
             ],
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
+        },
+        {
             "id": 2,
-            "tags": "homemade"
-        },
-        {
-            "title": "Synthetic mind",
-            "type": "Manual creation",
-            "date": "Fevr. 2016",
-            "time": "2 weeks",
+            "title": "Swap",
+            "type": "Web dev",
+            "date": "Nov. 2024",
+            "time": "5 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
             "content": [
-                "Lorem ipsum dolor"
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
             ],
             "pictures_url": [
-                "https://randomwordgenerator.com/img/picture-generator/51e6dd444a54b10ff3d8992cc12c30771037dbf85254794e732f7bd49344_640.jpg",
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800"
             ],
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
+        },
+        {
             "id": 3,
-            "tags": "analog"
-        },
-        {
-            "title": "Virtual Revolution",
-            "type": "Manual creation",
-            "date": "Fevr. 2016",
-            "time": "2 weeks",
+            "title": "Gaston",
+            "type": "Web dev",
+            "date": "Nov. 2024",
+            "time": "5 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
             "content": [
-                "Lorem ipsum"
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
             ],
             "pictures_url": [
-                "https://randomwordgenerator.com/img/picture-generator/54e0d3434a56b10ff3d8992cc12c30771037dbf85254794e70267cdc9544_640.jpg",
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800"
             ],
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
+        },
+        {
             "id": 4,
-            "tags": "virtual"
-        },
-        {
-            "title": "Optimal Vision",
-            "type": "Manual creation",
-            "date": "Fevr. 2016",
-            "time": "2 weeks",
+            "title": "Python",
+            "type": "Web dev",
+            "date": "Nov. 2024",
+            "time": "5 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
             "content": [
-                "Lorem ipsum"
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
             ],
             "pictures_url": [
-                "https://randomwordgenerator.com/img/picture-generator/52e6d0444c56aa14f1dc8460962e33791c3ad6e04e5074417c2d78d2934fc6_640.jpg",
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800",
                 "https://picsum.photos/1200/800"
             ],
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
+        },
+        {
             "id": 5,
-            "tags": "crypto"
+            "title": "GoHugo",
+            "type": "Web dev",
+            "date": "Nov. 2024",
+            "time": "5 weeks",
+            "resume": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo ?",
+            "content": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo.",
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo."
+            ],
+            "pictures_url": [
+                "https://randomwordgenerator.com/img/picture-generator/53e7d44b4a5aa514f1dc8460962e33791c3ad6e04e507749702c73d1924cc2_640.jpg",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800",
+                "https://picsum.photos/1200/800"
+            ],
+            "tags": [
+                "dyno",
+                "python",
+                "Jinja"
+            ]
         }
     ]
 }

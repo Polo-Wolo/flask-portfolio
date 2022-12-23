@@ -1,0 +1,13 @@
+<section class="section justify-center items-center flex" id="projects">
+    <div class="section-content">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 order-last lg:order-first w-full xl:w-2/3 px-1 lg:px-16">
+                {% for elem in projects %}
+                {% include "cards/projectCard.html" %}
+                {% endfor %}
+        </div>
+        <div class="section-title text-left">
+            <div>PRO</div>
+            <div>JECTS</div>
+        </div>
+    </div>
+</section>

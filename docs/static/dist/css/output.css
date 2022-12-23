@@ -1083,7 +1083,7 @@ video {
 
 /* Timeline */
 
-.time-element {
+.centered-element {
   display: flex;
   min-height: -moz-max-content;
   min-height: max-content;
@@ -1091,14 +1091,14 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .time-element > :not([hidden]) ~ :not([hidden]) {
+  .centered-element > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
-.fake-time-element {
+.fake-centered-element {
   display: none;
   min-height: -moz-max-content;
   min-height: max-content;
@@ -1106,11 +1106,11 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .fake-time-element {
+  .fake-centered-element {
     display: flex;
   }
 
-  .fake-time-element > :not([hidden]) ~ :not([hidden]) {
+  .fake-centered-element > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));

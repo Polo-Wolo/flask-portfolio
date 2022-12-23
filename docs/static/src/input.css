@@ -66,10 +66,10 @@
     @apply text-center lg:text-left font-bold text-4xl lg:text-7xl mx-3;
 }
 /* Timeline */
-.time-element {
+.centered-element {
     @apply flex lg:space-x-10 min-h-max justify-center;
 }
-.fake-time-element {
+.fake-centered-element {
     @apply hidden lg:flex lg:space-x-10 min-h-max justify-center;
 }
 .date {
