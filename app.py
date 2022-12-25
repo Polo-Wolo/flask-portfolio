@@ -32,6 +32,11 @@ freezer = Freezer(app)
 def home():
 	return render_template("base.html", **data, **config)
 
+@app.route('/projects/<string:name>')
+def index_user(name):
+    message = "project " + name
+    return render_template('/views/404.html', message=message, **data )
+
 def changeRelativePath():
 	# get current directory path
 	cur_dir = str(pathlib.Path(__file__).parent.resolve())
