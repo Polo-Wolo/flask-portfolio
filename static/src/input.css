@@ -154,3 +154,7 @@
 .picture {
     background-image: url("https://picsum.photos/1200/800");
 }
+
+.tag {
+    @apply text-sm font-extralight bg-jet rounded px-2 py-1;
+}
