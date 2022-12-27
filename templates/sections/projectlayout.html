@@ -1,9 +1,9 @@
-<section class="section justify-center items-center h-screen lg:relative mt-20 lg:mt-0" id="home">
-    <div class="space-y-4 lg:space-x-24 justify-center items-center">
+<section class="section justify-center items-center h-screen lg:relative mt-20 lg:mt-0 px-2 xl:px-28 2xl:px-52" id="home">
+    <div class="space-y-4 flex flex-col">
         <div class="text-4xl text-center font-bold">{{ projects[id].title }}</div>
 
         <div class="flex justify-between">
-            <div class="flex space-x-2">
+            <div class="flex space-x-2 items-center">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                     <path
@@ -14,7 +14,7 @@
                 {% endfor %}
             </div>
             <div class="flex space-x-4">
-                <div class="flex space-x-2">
+                <div class="flex space-x-2 items-center">
                     <svg class="icon" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                         <path
@@ -24,7 +24,7 @@
                         {{ projects[id].time }}
                     </span>
                 </div>
-                <div class="flex space-x-2">
+                <div class="flex space-x-2 items-center">
                     <svg class="icon" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                         <path
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div id="default-carousel" class="relative max-w-4xl mx-auto" data-carousel="static">
+        <div id="default-carousel" class="relative md:w-2/3 lg:w-full xl:w-2/3  md:mx-auto" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
@@ -90,6 +90,7 @@
             </button>
             {% endif %}
         </div>
+
 
     </div>
 </section>
