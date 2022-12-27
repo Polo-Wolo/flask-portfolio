@@ -1,5 +1,5 @@
 <section class="section justify-center items-center h-screen lg:relative mt-20 lg:mt-0 px-2 xl:px-28 2xl:px-52" id="home">
-    <div class="space-y-4 flex flex-col">
+    <div class="space-y-4 flex flex-col md:w-2/3 lg:w-full xl:w-2/3  md:mx-auto">
         <div class="text-4xl text-center font-bold">{{ projects[id].title }}</div>
 
         <div class="flex justify-between">
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div id="default-carousel" class="relative md:w-2/3 lg:w-full xl:w-2/3  md:mx-auto" data-carousel="static">
+        <div id="default-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
@@ -91,6 +91,11 @@
             {% endif %}
         </div>
 
+        <div>
+            {% for p in projects[id].content %}
+                <div class="project-content">{{p}}</div>
+            {% endfor %}
+        </div>
 
     </div>
 </section>

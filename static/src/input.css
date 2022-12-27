@@ -158,3 +158,6 @@
 .tag {
     @apply text-sm font-extralight bg-jet rounded px-2 py-1;
 }
+.project-content {
+    @apply font-light text-justify lg:mx-4 my-2;
+}
