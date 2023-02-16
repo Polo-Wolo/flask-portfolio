@@ -16,11 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;500&display=swap" rel="stylesheet"> 
 </head>
 
+<script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+
+
 <body class="body">
     <!-- Absolute content -->
     <div class="mobileNavBar">
     <!-- Burger -->
-    <div class="fixed top-4 right-4">
+    <div class="fixed top-4 right-4 z-40">
         <button class="burger-button group">
             <div class="burger-bg" id="burger">
                 <div class="burger-content">
@@ -31,7 +34,7 @@
             </div>
         </button>
     </div>
-    <div class="w-screen flex h-screen fixed top-0 -left-full shadow-xl transform transition-all duration-200 z-10" id="panel">
+    <div class="w-screen flex h-screen fixed top-0 -left-full shadow-xl transform transition-all duration-200 z-50" id="panel">
         <div class="bg-jet w-2/3 relative flex items-center justify-end shadow-2xl border-r border-raisin">
             <ul class="flex flex-col items-end space-y-4 m-12">
                 <li>
@@ -45,8 +48,8 @@
                     </a>
                 </li>
                 <li>
-                    <a class="mobile-link" href="#volunteering">
-                        <span class="mobile-text">VOLUNTEERING</span>
+                    <a class="mobile-link" href="#projects">
+                        <span class="mobile-text">PROJECTS</span>
                     </a>
                 </li>
                 <li>
@@ -59,13 +62,18 @@
                         <span class="mobile-text">SKILLS</span>
                     </a>
                 </li>
+                <li>
+                    <a class="mobile-link" href="#volunteering">
+                        <span class="mobile-text">VOLUNTEERING</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="grow h-screen" id="panel-outside"></div>
     </div>
 </div>
     <div class="top-bar">
-    <a class="home-title" href="#home">Paul / Walczak</a>
+    <a class="home-title" href="/">Paul / Walczak</a>
     <a class="button transparent-button" href="mailto:paul.wzk.pro@gmail.com">LET'S TALK</a>
 </div>
     <div class="bar bar-left">
@@ -84,12 +92,14 @@
                         <span class="circle-text">WORK-EXPERIENCES</span>
                     </a>
                 </li>
+                <!--
                 <li>
-                    <a class="bar bar-group group" href="#volunteering">
+                    <a class="bar bar-group group" href="#projects">
                         <span class="circle"></span>
-                        <span class="circle-text">VOLUNTEERING</span>
+                        <span class="circle-text">PROJECTS</span>
                     </a>
                 </li>
+                -->
                 <li>
                     <a class="bar bar-group group" href="#trainings">
                         <span class="circle"></span>
@@ -100,6 +110,12 @@
                     <a class="bar bar-group group" href="#skills">
                         <span class="circle"></span>
                         <span class="circle-text">SKILLS</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="bar bar-group group" href="#volunteering">
+                        <span class="circle"></span>
+                        <span class="circle-text">VOLUNTEERING</span>
                     </a>
                 </li>
             </ul>
@@ -394,63 +410,123 @@
         </div>
     </div>
 </section>
-    <section class="section justify-center items-center flex" id="volunteering">
+    <!-- <section class="section justify-center items-center flex" id="projects">
     <div class="section-content">
-        <div class="grid lg:gap-4 order-last lg:order-first">
-            
-            <div class="centered-element">
-    <div class="card card-width flex-col my-3">
-        <div class="card-header">
-            <div>Nous Existons</div>
-            <div class="location">2021-2023</div>
-        </div>
-        <div class="content italic">Brest, FRANCE</div>
-        <div class="content ml-2">
-            
-                <p>Scientific mediation that aims to raise awareness of the sensitivity and fragility of the seabed. The project is suported by ISblue, ISblueHUB and Ifremer</p>
-            
-        </div>
-    </div>
-</div>
-            
-            <div class="centered-element">
-    <div class="card card-width flex-col my-3">
-        <div class="card-header">
-            <div>Cordées de la Réussite</div>
-            <div class="location">2021-2022</div>
-        </div>
-        <div class="content italic">Brest, FRANCE</div>
-        <div class="content ml-2">
-            
-                <p>A French national education scheme that aims to encourage academic ambition among secondary school students</p>
-            
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 order-last lg:order-first w-full xl:w-2/3 px-1 lg:px-16">
+                
+                    <a href="/projects/0">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">Allosaurus</span>
+            <span class="text-sm"> Avr. 2022</span>
+            <div>
+                
+                    <span class="tag">#dyno</span>
+                
+            </div>
         </div>
     </div>
-</div>
-            
-            <div class="centered-element">
-    <div class="card card-width flex-col my-3">
-        <div class="card-header">
-            <div>Summer Camp Animator</div>
-            <div class="location">2020-2021</div>
-        </div>
-        <div class="content italic">Mont Saint-Michel, FRANCE</div>
-        <div class="content ml-2">
-            
-                <p>Summer camp animator during 2 summers. With youngs from 11 to 15 years old</p>
-            
+</a>
+                
+                    <a href="/projects/1">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">Minautor</span>
+            <span class="text-sm"> Nov. 2024</span>
+            <div>
+                
+                    <span class="tag">#gnagnagna</span>
+                
+            </div>
         </div>
     </div>
-</div>
-            
+</a>
+                
+                    <a href="/projects/2">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">Swap</span>
+            <span class="text-sm"> Nov. 2024</span>
+            <div>
+                
+                    <span class="tag">#dyno</span>
+                
+                    <span class="tag">#python</span>
+                
+                    <span class="tag">#Jinja</span>
+                
+            </div>
+        </div>
+    </div>
+</a>
+                
+                    <a href="/projects/3">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">Gaston</span>
+            <span class="text-sm"> Nov. 2024</span>
+            <div>
+                
+                    <span class="tag">#dyno</span>
+                
+                    <span class="tag">#python</span>
+                
+                    <span class="tag">#Jinja</span>
+                
+            </div>
+        </div>
+    </div>
+</a>
+                
+                    <a href="/projects/4">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">Python</span>
+            <span class="text-sm"> Nov. 2024</span>
+            <div>
+                
+                    <span class="tag">#dyno</span>
+                
+                    <span class="tag">#python</span>
+                
+                    <span class="tag">#Jinja</span>
+                
+            </div>
+        </div>
+    </div>
+</a>
+                
+                    <a href="/projects/5">
+    <div class="relative mx-auto w-full h-28 xl:h-40 rounded-2xl outline outline-0 hover:outline-4 outline-pantone transition-all duration-100 ease-in-out">
+        <div class="picture w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl flex filter brightness-50 transition-all duration-100 ease-in-out"></div>
+        <div class="justify-center flex flex-col space-y-3 xl:space-y-5 h-full absolute right-1/2 transform translate-x-1/2 bottom-1/2 translate-y-1/2 font-bold text-white w-full text-center select-none">
+            <span class="lg:text-xl">GoHugo</span>
+            <span class="text-sm"> Nov. 2024</span>
+            <div>
+                
+                    <span class="tag">#dyno</span>
+                
+                    <span class="tag">#python</span>
+                
+                    <span class="tag">#Jinja</span>
+                
+            </div>
+        </div>
+    </div>
+</a>
+                
         </div>
         <div class="section-title text-left">
-            <div>VOLUN</div>
-            <div>TEE</div>
-            <div>RING</div>
+            <div>PRO</div>
+            <div>JECTS</div>
         </div>
     </div>
-</section>
+</section> -->
     <section class="section" id="trainings">
     <div class="section-content">
         <div class="section-title text-right">
@@ -497,6 +573,29 @@
                 <p>General - Electronics, Mechatronics, Computer Science</p>
             
                 <p>Signal and image processing option</p>
+            
+        </div>
+    </div>
+</div>
+                    
+                
+                    
+                        <div class="centered-element">
+    <div class="date date-width ">Jan. 2023</div>
+    <div class="timeline">
+        <div class="circle-pantone"></div>
+        <div class="line  "></div>
+    </div>
+    <div class="card card-width flex-col my-3">
+        <div class="card-header">
+            <div>TOEIC</div>
+            <div class="location">Plouzané, FRANCE</div>
+        </div>
+        <div class="content ml-2">
+            
+                <p>Test of English for International Communication</p>
+            
+                <p>Score : 900/990</p>
             
         </div>
     </div>
@@ -589,10 +688,10 @@
                 
                     
                         <div class="centered-element">
-    <div class="date date-width ">Avr. 2019</div>
+    <div class="date date-width ">Apr. 2019</div>
     <div class="timeline">
         <div class="circle-pantone"></div>
-        <div class="line  "></div>
+        <div class="line  rounded-b-full"></div>
     </div>
     <div class="card card-width flex-col my-3">
         <div class="card-header">
@@ -604,29 +703,6 @@
                 <p>Awarded of Brevet National de Sécurité et de Sauvetage Aquatique (National Aquatic Safety and Rescue Certificate).</p>
             
                 <p>This is a French aquatic safety certification.</p>
-            
-        </div>
-    </div>
-</div>
-                    
-                
-                    
-                        <div class="centered-element">
-    <div class="date date-width ">Juin 2017</div>
-    <div class="timeline">
-        <div class="circle-pantone"></div>
-        <div class="line  rounded-b-full"></div>
-    </div>
-    <div class="card card-width flex-col my-3">
-        <div class="card-header">
-            <div>PET for School</div>
-            <div class="location">Châteaulin, FRANCE</div>
-        </div>
-        <div class="content ml-2">
-            
-                <p>Awarded PET for School.</p>
-            
-                <p>English level : B1 Cambridge.</p>
             
         </div>
     </div>
@@ -776,6 +852,11 @@
                 
                     Jinja
                     
+                        ,
+                    
+                
+                    Hugo
+                    
                 
             </div>
         </div>
@@ -855,6 +936,63 @@
         </div>
         <div class="section-title text-left">
             <div>SKILLS</div>
+        </div>
+    </div>
+</section>
+    <section class="section justify-center items-center flex" id="volunteering">
+    <div class="section-content">
+        <div class="flex-col lg:space-y-3 grow order-last lg:order-first">
+            
+            <div class="centered-element">
+    <div class="card card-width flex-col my-3 justify-center flex">
+        <div class="card-header">
+            <div>Nous Existons</div>
+            <div class="location">2021-2023</div>
+        </div>
+        <div class="content italic">Brest, FRANCE</div>
+        <div class="content ml-2">
+            
+                <p>Scientific mediation that aims to raise awareness of the sensitivity and fragility of the seabed. The project is suported by ISblue, ISblueHUB and Ifremer</p>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="centered-element">
+    <div class="card card-width flex-col my-3 justify-center flex">
+        <div class="card-header">
+            <div>Cordées de la Réussite</div>
+            <div class="location">2021-2022</div>
+        </div>
+        <div class="content italic">Brest, FRANCE</div>
+        <div class="content ml-2">
+            
+                <p>A French national education scheme that aims to encourage academic ambition among secondary school students</p>
+            
+        </div>
+    </div>
+</div>
+            
+            <div class="centered-element">
+    <div class="card card-width flex-col my-3 justify-center flex">
+        <div class="card-header">
+            <div>Summer Camp Animator</div>
+            <div class="location">2020-2021</div>
+        </div>
+        <div class="content italic">Mont Saint-Michel, FRANCE</div>
+        <div class="content ml-2">
+            
+                <p>Summer camp animator during 2 summers. With youngs from 11 to 15 years old</p>
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+        <div class="section-title text-left">
+            <div>VOLUN</div>
+            <div>TEE</div>
+            <div>RING</div>
         </div>
     </div>
 </section>

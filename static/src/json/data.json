@@ -53,6 +53,16 @@
             "country": "FRANCE"
         },
         {
+            "title": "TOEIC",
+            "date": "Jan. 2023",
+            "content": [
+                "Test of English for International Communication",
+                "Score : 900/990"
+            ],
+            "city": "Plouzané",
+            "country": "FRANCE"
+        },
+        {
             "title": "SST",
             "date": "Jan. 2022",
             "content": [
@@ -90,22 +100,12 @@
         },
         {
             "title": "BNSSA",
-            "date": "Avr. 2019",
+            "date": "Apr. 2019",
             "content": [
                 "Awarded of Brevet National de Sécurité et de Sauvetage Aquatique (National Aquatic Safety and Rescue Certificate).",
                 "This is a French aquatic safety certification."
             ],
             "city": "Landerneau",
-            "country": "FRANCE"
-        },
-        {
-            "title": "PET for School",
-            "date": "Juin 2017",
-            "content": [
-                "Awarded PET for School.",
-                "English level : B1 Cambridge."
-            ],
-            "city": "Châteaulin",
             "country": "FRANCE"
         }
     ],
@@ -196,7 +196,8 @@
                 "Vue",
                 "Flask",
                 "TailwindCSS",
-                "Jinja"
+                "Jinja",
+                "Hugo"
             ]
         },
         {

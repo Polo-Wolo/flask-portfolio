@@ -9,7 +9,7 @@
     @apply justify-between px-9 fixed top-9 w-full z-10 hidden lg:inline-flex;
 }
 .home-title {
-    @apply xl:text-3xl uppercase;
+    @apply text-3xl uppercase;
 }
 .button {
     @apply border border-white font-light rounded-full px-4 py-2;
@@ -51,7 +51,7 @@
     @apply flex justify-center lg:block lg:w-1/3 text-4xl lg:text-8xl font-mitr font-medium text-dim my-10;
 }
 .top-button {
-    @apply animate-wiggle fixed w-14 h-14 right-8 flex items-center justify-center transition-all duration-150 ease-in-out;
+    @apply animate-wiggle fixed w-14 h-14 right-8 flex items-center justify-center transition-all duration-150 ease-in-out z-10;
 }
 .scroll {
     @apply animate-bounce absolute bottom-4 -translate-x-1/2 flex ;
@@ -89,6 +89,9 @@
 }
 .card {
     @apply flex flex-none bg-jet rounded-lg lg:rounded-xl px-4 py-3 lg:px-5 lg:py-4;
+}
+.no-padding-card {
+    @apply flex flex-none bg-jet rounded-lg lg:rounded-xl;
 }
 .card-header {
     @apply flex justify-between font-semibold items-center text-sm lg:text-base;
@@ -146,4 +149,15 @@
 /* icons */
 .work-experience-icon {
     @apply w-8 h-8 lg:w-10 lg:h-10 fill-pantone rounded-sm;
+}
+
+.picture {
+    background-image: url("https://picsum.photos/1200/800");
+}
+
+.tag {
+    @apply text-sm font-extralight bg-jet rounded px-2 py-1;
+}
+.project-content {
+    @apply font-light text-justify lg:mx-4 my-2;
 }
